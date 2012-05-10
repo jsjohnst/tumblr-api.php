@@ -1,3 +1,8 @@
 Tumblr API wrapper in PHP
 
 See test.php for an introduction to the library. More docs coming soon.
+
+TODO: Can't initialise a Tumblr API Object because a request is sent by default that
+requires the API key/secret etc, but complains that there isn't a specified request method,
+and then Authentication is attempted, but it can't create an instance of itself to add API
+ key/secret to because it needs that data to initialise the default 1st request.
